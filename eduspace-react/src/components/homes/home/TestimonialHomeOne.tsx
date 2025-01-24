@@ -1,4 +1,5 @@
- 
+
+
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import robsonImg from "../../../../public/assets/img/testimonial/robson.jpg"
@@ -124,30 +125,6 @@ const TestimonialHomeOne = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    {/* <SwiperSlide className="swiper-slide">
-                        <div className="testimonial-box-items bg-2">
-                            <div className="testimonial-content">
-                                <div className="star">
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                </div>
-                                <p>
-                                    "The course content was and easy to follow instructors were
-                                    available answer questions "
-                                </p>
-                                <div className="client-info">
-                                    <h4>Richard C. Andre</h4>
-                                    <span>Web Designer</span>
-                                </div>
-                            </div>
-                            <div className="testimonial-image">
-                                <img src="assets/img/testimonial/02.png" alt="img" />
-                            </div>
-                        </div>
-                    </SwiperSlide> */}
                      
                     <div className="swiper-dot text-center mt-5">
                         <div className="dot"></div>
