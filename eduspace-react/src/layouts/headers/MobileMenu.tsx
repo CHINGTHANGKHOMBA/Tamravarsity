@@ -52,7 +52,7 @@ const MobileMenu = () => {
 								 <Link to={inner_item.link ?? ""}>{inner_item.title}</Link>
 								 {inner_item.inner_menu ? 
 									<a className={`mean-expand ${inner_item?.title === navTitle2 ? "mean-clicked" : ""}`} href="#" onClick={() => openMobileMenu2(inner_item?.title ?? "")}>
-										<i className="far fa-plus"></i>
+										<i className="fa-solid fa-plus"></i>
 									</a>
 									: null              
 								}
@@ -75,7 +75,7 @@ const MobileMenu = () => {
 							</ul>
               {item.has_dropdown || item.img_dropdown ? 
 							<a className={`mean-expand ${item?.title === navTitle ? "mean-clicked" : ""}`} href="#" onClick={() => openMobileMenu(item?.title ?? "")}>
-								<i className="far fa-plus"></i>
+								<i className="fa-solid fa-plus"></i>
 							</a>
               : null              
             }

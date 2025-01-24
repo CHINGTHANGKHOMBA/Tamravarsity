@@ -18,7 +18,7 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
                             </div>
                             <div className="offcanvas__close" onClick={() => setOpenCanvas(false)}>
                                 <button>
-                                <i className="fas fa-times"></i>
+                                <i className="fa-solid fa-times"></i>
                                 </button>
                             </div>
                         </div>

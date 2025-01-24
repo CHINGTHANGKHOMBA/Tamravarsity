@@ -35,7 +35,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items active">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fab fa-react"></i>
+                                                <i className="fa-solid fa-atom"></i>
                                               
                                             </div>
                                             <h6>React Js</h6>
