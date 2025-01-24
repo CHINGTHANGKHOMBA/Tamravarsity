@@ -1,40 +1,40 @@
   
-import { Link } from 'react-router-dom';
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Link } from 'react-router-dom';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
-const setting = {
-  spaceBetween: 0,
-  speed: 2000,
-  loop: true,
+// const setting = {
+//   spaceBetween: 0,
+//   speed: 2000,
+//   loop: true,
 
-  navigation: {
-      nextEl: ".array-prev",
-      prevEl: ".array-next",
-  },
-  breakpoints: {
-      1399: {
-          slidesPerView: 5,
-      },
-      1199: {
-          slidesPerView: 4,
-      },
-      991: {
-          slidesPerView: 3,
-      },
-      767: {
-          slidesPerView: 2,
-      },
-      575: {
-          slidesPerView: 2,
-      },
-      475: {
-          slidesPerView: 1,
-      },
-      0: {
-          slidesPerView: 1,
-      },
-  },
-}
+//   navigation: {
+//       nextEl: ".array-prev",
+//       prevEl: ".array-next",
+//   },
+//   breakpoints: {
+//       1399: {
+//           slidesPerView: 5,
+//       },
+//       1199: {
+//           slidesPerView: 4,
+//       },
+//       991: {
+//           slidesPerView: 3,
+//       },
+//       767: {
+//           slidesPerView: 2,
+//       },
+//       575: {
+//           slidesPerView: 2,
+//       },
+//       475: {
+//           slidesPerView: 1,
+//       },
+//       0: {
+//           slidesPerView: 1,
+//       },
+//   },
+// }
 
 const TeamHomeOne = () => {
   return (
