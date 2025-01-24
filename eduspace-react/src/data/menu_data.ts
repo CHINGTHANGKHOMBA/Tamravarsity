@@ -6,7 +6,10 @@
 // import demo_img_4 from "../../public/assets/img/header/home-4.jpg";
 // import demo_img_5 from "../../public/assets/img/header/home-5.jpg";
 // import demo_img_6 from "../../public/assets/img/header/home-6.jpg"; 
- 
+import '@fortawesome/fontawesome-free/css/solid.min.css';
+import '@fortawesome/fontawesome-free/css/regular.min.css';
+import '@fortawesome/fontawesome-free/css/brands.min.css';
+
 
  
 interface DataType {
@@ -38,7 +41,7 @@ const menu_data:DataType[] = [
 		id: 1,
 		title: "Home",
 		link: "/",
-    	icon: "fas fa-home-lg",
+    	icon: "fa-solid fa-home",
 		img_dropdown: false,
 		// sub_menus: [
 		// 	{ link: "/", demo_img: demo_img_1, title: "Education", title2: "Education" },
@@ -55,7 +58,7 @@ const menu_data:DataType[] = [
 		id: 2,
 		title: "Courses",
 		link: "/courses",
-    icon: "fas fa-book",
+    icon: "fa-solid fa-book",
 		has_dropdown: false,
 		sub_menus: [
 			{ link: "/courses", title: "Courses" },
@@ -96,9 +99,10 @@ const menu_data:DataType[] = [
 		id: 5,
 		title: "Pages",
 		link: "#",
-    icon: "fas fa-file-alt",
+    icon: "fa-solid fa-file-alt",
 		has_dropdown: true,
 		has_dropdown_inner: true,
+	
 		sub_menus: [
 			{ link: "/about", title: "About" },
 			// { link: "/instructor", title: "Instructor" },
@@ -126,7 +130,7 @@ const menu_data:DataType[] = [
 		id: 6,
 		title: "Contact",
 		link: "/contact",
-    icon: "fas fa-phone-rotary",
+    icon: "fa-solid fa-phone",
 		has_dropdown: false,
 	},
 ];

@@ -851,7 +851,7 @@ const CoursesArea = () => {
                                         <Link to="">
                                         Cloud Computing Associate
                                         </Link>
-                                    </h3>
+                                    </h3> <br />
                                     {/* <div className="client-items">
                                         <div className="client-img bg-cover" style={{background: `url(/assets/img/courses/client-1.png)`}}></div>
                                         <p>Nehru</p>
@@ -864,7 +864,7 @@ const CoursesArea = () => {
                                         <li>
                                             <i className="far fa-user"></i>
                                             80 Students
-                                        </li> */}
+                                        </li> */} 
                                         <li>
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=19" className="theme-btn">Enroll Now</Link>
                                         </li>

@@ -13,7 +13,7 @@ const NavMenu = () => {
           <Link to={item.link}>
               <span className="head-icon"><i className={item.icon}></i></span>
               {item.title}
-              {item.img_dropdown || item.has_dropdown ? <i className="fas fa-chevron-down"></i> : null}
+              {item.img_dropdown || item.has_dropdown ? <i className="fa-solid fa-chevron-circle-down"></i> : null}
               
           </Link>
           {item.img_dropdown && 

@@ -1,4 +1,8 @@
- 
+
+import '@fortawesome/fontawesome-free/css/solid.min.css';
+import '@fortawesome/fontawesome-free/css/regular.min.css';
+import '@fortawesome/fontawesome-free/css/brands.min.css';
+
 
 const MarqueeOne = ({style_2} : any) => {
   return (
@@ -8,33 +12,34 @@ const MarqueeOne = ({style_2} : any) => {
                 <div className="scrolling-wrap">
                     <div className="comm">
                         <div></div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Tamravarsity</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Online & offline Course</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> 18+ Quality Courses</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Experience Instructors</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> New Technology</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> ST or SC extra offer</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Extra Offer of Neilit Students</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Tamravarsity</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Online & offline Course</div>
+                        {/* <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 18+ Quality Courses</div> */}
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 18+ Quality Courses</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Experience Instructors</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> New Technology</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> ST or SC extra offer</div>
+                        {/* <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Extra Offer of Neilit Students</div> */}
                     </div>
                     <div className="comm">
                         <div></div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Tamravarsity</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Online & offline Course</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> 18+ Quality Courses</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Experience Instructors</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> New Technology</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> ST or SC extra offer</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Extra Offer of Neilit Students</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Tamravarsity</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Online & offline Course</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 18+ Quality Courses</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Experience Instructors</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> New Technology</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> ST or SC extra offer</div>
+                        {/* <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Extra Offer of Neilit Students</div> */}
                     </div>
                     <div className="comm">
                         <div></div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Tamravarsity</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Online & offline Course</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> 18+ Quality Courses</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Experience Instructors</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> New Technology</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> ST or SC extra offer</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="flaticon-mortarboard"></i> Extra Offer of Neilit Students</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Tamravarsity</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Online & offline Course</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 18+ Quality Courses</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Experience Instructors</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> New Technology</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> ST or SC extra offer</div>
+                        {/* <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Extra Offer of Neilit Students</div> */}
                     </div>
                 </div>
             </div>

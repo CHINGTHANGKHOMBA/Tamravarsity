@@ -14,7 +14,7 @@ const ContactArea = () => {
                     <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div className="contact-box-items">
                             <div className="icon">
-                                <i className="flaticon-map"></i>
+                                <i className="fa-solid fa-location"></i>
                             </div>
                             <h5>
                                 Academic Location
@@ -32,7 +32,7 @@ const ContactArea = () => {
                     <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                         <div className="contact-box-items">
                             <div className="icon">
-                                <i className="flaticon-send-data"></i>
+                                <i className="fa-solid fa-envelope"></i>
                             </div>
                             <h5>
                                 Email Address

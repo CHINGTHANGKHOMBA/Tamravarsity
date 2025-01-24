@@ -1,4 +1,5 @@
 import Count from "../../../common/Count";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
  
 
@@ -22,7 +23,7 @@ const ChooseHomeOne = () => {
                         </div>
                         <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                             <div className="icon">
-                                <i className="flaticon-satisfaction"></i>
+                                <i className="fa-solid fa-briefcase"></i>
                             </div>
                             <div className="content">
                                <h2><span className="odometer" data-count="99"> <Count number={99} text='%' /> </span></h2>
@@ -35,7 +36,7 @@ const ChooseHomeOne = () => {
                     <div className="choose-us-bottom">
                         <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                             <div className="icon">
-                                <i className="flaticon-graduation"></i>
+                                <i className="fa-solid fa-graduation-cap"></i>
                             </div>
                             <div className="content">
                                 <p>Student Enrolled</p>
@@ -47,7 +48,7 @@ const ChooseHomeOne = () => {
                         </div>
                         <div className="icon-items style-2 wow fadeInUp" data-wow-delay=".5s">
                             <div className="icon">
-                                <i className="flaticon-instructor"></i>
+                                <i className="fa-solid fa-chalkboard-teacher"></i>
                             </div>
                             <div className="content">
                                 <p>Instructors</p>

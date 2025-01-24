@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
 
+import '@fortawesome/fontawesome-free/css/solid.min.css';
+import '@fortawesome/fontawesome-free/css/regular.min.css';
+import '@fortawesome/fontawesome-free/css/brands.min.css';
+
+
+
  
 
 const TopCategoryHomeOne = () => {
@@ -30,6 +36,7 @@ const TopCategoryHomeOne = () => {
                                         <Link to="/courses">
                                             <div className="icon">
                                                 <i className="fab fa-react"></i>
+                                              
                                             </div>
                                             <h6>React Js</h6>
                                         </Link>
@@ -39,7 +46,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fas fa-chart-line"></i>
+                                                <i className="fa-solid fa-chart-line"></i>
                                             </div>
                                             <h6>Data Analyst</h6>
                                         </Link>
@@ -49,7 +56,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items border-right-none">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fas fa-brain"></i>
+                                                <i className="fa-solid fa-brain"></i>
                                             </div>
                                             <h6> Machine Learning </h6>
                                         </Link>
@@ -59,7 +66,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fas fa-robot"></i>
+                                                <i className="fa-solid fa-robot"></i>
                                             </div>
                                             <h6>Artificial Intelligence Applications</h6>
                                         </Link>
@@ -69,7 +76,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fas fa-cogs"></i>
+                                                <i className="fa-solid fa-cogs"></i>
                                             </div>
                                             <h6>Artificial Intelligence (AI) Associate "Upskilling"</h6>
                                         </Link>
@@ -79,7 +86,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items border-right-none">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fas fa-cloud"></i>
+                                                <i className="fa-solid fa-cloud"></i>
                                             </div>
                                             <h6>Cloud Computing and Virtualization Expert</h6>
                                         </Link>
@@ -89,7 +96,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fab fa-android"></i>
+                                                <i className="fa-brands fa-android"></i>
                                             </div>
                                             <h6>Android Apps Developer</h6>
                                         </Link>
@@ -99,7 +106,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fas fa-laptop-code"></i>
+                                                <i className="fa-solid fa-laptop-code"></i>
                                             </div>
                                             <h6>Computer Applications Associate(CAA)</h6>
                                         </Link>
@@ -109,7 +116,7 @@ const TopCategoryHomeOne = () => {
                                     <div className="top-category-box-items border-right-none">
                                         <Link to="/courses">
                                             <div className="icon">
-                                                <i className="fas fa-keyboard"></i>
+                                                <i className="fa-solid fa-keyboard"></i>
                                             </div>
                                             <h6>Data Entry and Office Assistant</h6>
                                         </Link>

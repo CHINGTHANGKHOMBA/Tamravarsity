@@ -22,8 +22,9 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
                                 </button>
                             </div>
                         </div>
-                        <h3 className="offcanvas-title">Hello There!</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, </p>
+                        <h3 className="offcanvas-title">Welcome to Tamravarsity</h3>
+                        <p>Tamravarsity courses empower learners with industry-relevant skills, blending expert
+                             guidance and hands-on experience for career success. </p>
                         <div className="social-icon d-flex align-items-center">
                             <a href="#"><i className="fab fa-facebook-f"></i></a>
                             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -55,10 +56,10 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
                                     <a href="mailto:tamraversity.lamzingtech.com"> tamraversity.lamzingtech.com</a>
                                 </li>
                             </ul>
-                            <div className="offcanvas-button">
+                            {/* <div className="offcanvas-button">
                                 <Link to="/sign-in" className="theme-btn style-2"><i className="far fa-user"></i> Admin</Link>
                                 <Link to="/register" className="theme-btn yellow-btn">Enroll Now</Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
