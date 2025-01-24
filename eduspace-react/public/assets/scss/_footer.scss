@@ -1,3 +1,6 @@
+@use './variables' as *;
+@use './mixins' as *;
+
 .footer-widget-wrapper {
     padding: 70px 0 50px;
 

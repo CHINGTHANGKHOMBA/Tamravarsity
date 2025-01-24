@@ -1,14 +1,14 @@
 
 
-/* @import "swiper/css/bundle";   
-@import "node_modules/bootstrap/scss/bootstrap.scss"; 
+/* @use "swiper/css/bundle";    */
+/* @use "node_modules/bootstrap/scss/bootstrap.scss"; 
 
 
-@import "../public/assets/css/animate.css";
-@import "../public/assets/css/themify-icons.css";
-@import "../public/assets/css/magnific-popup.css";
-@import "../public/assets/css/fontawesome.min.css";
-@import "../public/assets/css/jquery-simple-mobilemenu.css";
-@import "../public/assets/css/style.css";
-@import "../public/assets/css/responsive.css"; */
-
+@use "../public/assets/css/animate.css";
+@use "../public/assets/css/themify-icons.css";
+@use "../public/assets/css/magnific-popup.css";
+@use "../public/assets/css/fontawesome.min.css";
+@use "../public/assets/css/jquery-simple-mobilemenu.css";
+@use "../public/assets/css/style.css";
+@use "../public/assets/css/responsive.css"; 
+ */

@@ -1,3 +1,6 @@
+@use './variables' as *;
+@use './mixins' as *;
+
 .about-wrapper {
     @include breakpoint (max-lg){
        margin-top: -29px;

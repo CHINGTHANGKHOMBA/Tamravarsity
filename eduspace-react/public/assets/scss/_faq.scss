@@ -1,3 +1,7 @@
+@use './variables' as *;
+@use './mixins' as *;
+@use './typography' as *;
+
 .faq-wrapper {
     .faq-image-items {
         .faq-image {

@@ -1,7 +1,8 @@
 /* --------------------------------------------
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
-
+ @use './variables' as *;
+ @use './mixins' as *;
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 $heading-font: "Sora", system-ui;
@@ -9,6 +10,8 @@ $body-font: 'Sora', sans-serif;
 
 //font-family: "Font Awesome 5 Pro";
 $fa: "Font Awesome 5 Pro";
+
+
 
 body {
     font-family: $body-font;

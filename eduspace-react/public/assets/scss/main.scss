@@ -11,62 +11,62 @@ Version: 1.1.0
 //>> Basic Start <<//
 
 //>> Mixins <<//
-@import "./mixins";
+@use "./mixins";
 //>> Variables <<//	
-@import "_variables";
+@use "_variables";
 //>> Buttons <<//
-@import "_buttons";
+@use "_buttons";
 //>> Typography <<//
-@import "_typography";
+@use "_typography";
 //>> Basic End <<//	
 
 
 //>> Template Section Style Start <<//
 
 //>> Preloader <<//
-@import "_preloader";
+@use "_preloader";
 //>> Section <<//
-@import "_section";
+@use "_section";
 //>> Animation <<//
-@import "_animation";
+@use "_animation";
 //>> Header <<//
-@import "_header";
+@use "_header";
 //>> MeanMenu <<//
-@import "_meanmenu";
+@use "_meanmenu";
 //>> Hero <<//
-@import "_hero";
+@use "_hero";
 //>> Feature <<//
-@import "_feature";
+@use "_feature";
 //>> About <<//
-@import "_about";
+@use "_about";
 //>> Category <<//
-@import "_category";
+@use "_category";
 //>> Helping <<//
-@import "_helping";
+@use "_helping";
 //>> Team <<//
-@import "_team";
+@use "_team";
 //>> Faq <<//
-@import "_faq";
+@use "_faq";
 //>> Cta <<//
-@import "_cta";
+@use "_cta";
 //>> Testimonial <<//
-@import "_testimonial";
+@use "_testimonial";
 //>> Brand <<//
-@import "_brand";
+@use "_brand";
 //>> Event <<//
-@import "_event";
+@use "_event";
 //>> News Addons <<//
-@import "_news-addons";
+@use "_news-addons";
 //>> Blog index default style <<//
-@import "_blog";
+@use "_blog";
 //>> Courses <<//
-@import "_courses";
+@use "_courses";
 //>> Contact <<//
-@import "_contact";
+@use "_contact";
 //>> Footer <<//
-@import "_footer";
+@use "_footer";
 //>> Shop <<//
-@import "_shop";
+@use "_shop";
 
 //>> Template Section Style End <<//
 

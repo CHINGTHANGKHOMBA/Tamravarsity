@@ -1,3 +1,7 @@
+
+@use './variables' as *;
+@use './mixins' as *;
+
 @keyframes width {
 	0% {
 	  width: 0%;

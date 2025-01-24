@@ -1,5 +1,8 @@
 
 //>>>>> Section Title Start <<<<<//
+@use './variables' as *;
+@use './mixins' as *;
+
 
 .section-title {
 	position: relative;

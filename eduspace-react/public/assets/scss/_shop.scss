@@ -1,3 +1,7 @@
+@use './variables' as *;
+@use './mixins' as *;
+@use './typography' as *;
+
 .shop-box-items {
     margin-top: 30px;
 
