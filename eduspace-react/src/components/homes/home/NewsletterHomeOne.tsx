@@ -27,7 +27,7 @@ const NewsletterHomeOne = () => {
                     <form onSubmit={e => e.preventDefault()} id="contact-form" method="POST" className="newsletter-input-items mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".3s">
                         <input type="email" id="email" placeholder="Email Address" />
                         <div className="icon">
-                            <i className="fas fa-envelope"></i>
+                            <i className="fa-solid fa-envelope"></i>
                         </div>
                         <button className="theme-btn yellow-btn" type="submit">
                             Subscribe

@@ -1,0 +1,72 @@
+/*
+Theme Name: Eduspace
+Author: rk-theme
+Author URI: https://themeforest.net/user/rk-theme/
+Description: Eduspace - Online Course, Education & University Next js Template
+Version: 1.1.0
+*/
+
+/*CSS Table Of Content Ends Here*/
+
+//>> Basic Start <<//
+
+//>> Mixins <<//
+@use "./mixins";
+//>> Variables <<//	
+@use "_variables";
+//>> Buttons <<//
+@use "_buttons";
+//>> Typography <<//
+@use "_typography";
+//>> Basic End <<//	
+
+
+//>> Template Section Style Start <<//
+
+//>> Preloader <<//
+@use "_preloader";
+//>> Section <<//
+@use "_section";
+//>> Animation <<//
+@use "_animation";
+//>> Header <<//
+@use "_header";
+//>> MeanMenu <<//
+@use "_meanmenu";
+//>> Hero <<//
+@use "_hero";
+//>> Feature <<//
+@use "_feature";
+//>> About <<//
+@use "_about";
+//>> Category <<//
+@use "_category";
+//>> Helping <<//
+@use "_helping";
+//>> Team <<//
+@use "_team";
+//>> Faq <<//
+@use "_faq";
+//>> Cta <<//
+@use "_cta";
+//>> Testimonial <<//
+@use "_testimonial";
+//>> Brand <<//
+@use "_brand";
+//>> Event <<//
+@use "_event";
+//>> News Addons <<//
+@use "_news-addons";
+//>> Blog index default style <<//
+@use "_blog";
+//>> Courses <<//
+@use "_courses";
+//>> Contact <<//
+@use "_contact";
+//>> Footer <<//
+@use "_footer";
+//>> Shop <<//
+@use "_shop";
+
+//>> Template Section Style End <<//
+
