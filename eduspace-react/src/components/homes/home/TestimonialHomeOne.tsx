@@ -56,11 +56,11 @@ const TestimonialHomeOne = () => {
                         <div className="testimonial-box-items">
                             <div className="testimonial-content">
                                 <div className="star">
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
                                 </div>
                                 <p>
                                     "
@@ -81,11 +81,11 @@ const TestimonialHomeOne = () => {
                         <div className="testimonial-box-items bg-2">
                             <div className="testimonial-content">
                                 <div className="star">
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
                                 </div>
                                 <p>
                                 The Tamravarsity Android App Development course is a fantastic learning experience, providing a solid foundation in 
@@ -105,11 +105,11 @@ const TestimonialHomeOne = () => {
                         <div className="testimonial-box-items">
                             <div className="testimonial-content">
                                 <div className="star">
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
-                                    <i className="fas fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
                                 </div>
                                 <p>
                                 The Tamravarsity Machine Learning course is an outstanding program that delivers hands-on expertise in machine learning concepts, 

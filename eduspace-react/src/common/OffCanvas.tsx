@@ -13,7 +13,7 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
                         <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div className="offcanvas__logo">
                                 <Link to="/">
-                                    <img src={tamravarsity_logo} alt="logo-img" />
+                                    <img src={tamravarsity_logo} alt="logo-img" style={{ height: '10vh' }}/>
                                 </Link>
                             </div>
                             <div className="offcanvas__close" onClick={() => setOpenCanvas(false)}>

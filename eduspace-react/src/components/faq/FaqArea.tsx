@@ -28,7 +28,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    The minimum requirement for enrolling in the Tamravarsity course is completing the 12th standard. 
                                                     </p>
                                                 </div>
                                             </div>
@@ -44,7 +44,7 @@ const FaqArea = () => {
                                                 data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    There is no age limit for enrolling in the Tamravarsity course.
                                                     </p>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    No prior knowledge or experience is needed to join Tamravarsity as long as you have the interest.
                                                     </p>
                                                 </div>
                                             </div>
@@ -78,7 +78,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingfour" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    Tamravarsity course duration is 3 months and 6 months.
                                                     </p>
                                                 </div>
                                             </div>
@@ -95,7 +95,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingnine" data-bs-parent="#accordionExample2">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    There is no refund available if you're not satisfied with the Tamravarsity course.
                                                     </p>
                                                 </div>
                                             </div>
@@ -112,7 +112,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingnine" data-bs-parent="#accordionExample2">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    You can contact Tamravarsity's customer support through the contact information shown on their website.
                                                     </p>
                                                 </div>
                                             </div>
@@ -136,7 +136,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingfive" data-bs-parent="#accordionExample2">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                       
                                                     </p>
                                                 </div>
                                             </div>
@@ -152,7 +152,7 @@ const FaqArea = () => {
                                                 data-bs-parent="#accordionExample2">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                      
                                                     </p>
                                                 </div>
                                             </div>
@@ -169,7 +169,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingseven" data-bs-parent="#accordionExample2">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    The Tamravarsity course is available in all formats—online, in-person, and hybrid.
                                                     </p>
                                                 </div>
                                             </div>
@@ -186,7 +186,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingeight" data-bs-parent="#accordionExample2">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    Yes, you will receive a certificate upon completion of the Tamravarsity course.
                                                     </p>
                                                 </div>
                                             </div>
@@ -203,7 +203,7 @@ const FaqArea = () => {
                                                 aria-labelledby="headingnine" data-bs-parent="#accordionExample2">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        We offer a wide range of undergraduate, graduate, and professional programs across various fields, including, sciences, business, engineering.
+                                                    Discounts or offers for Tamravarsity students are available from time to time.
                                                     </p>
                                                 </div>
                                             </div>

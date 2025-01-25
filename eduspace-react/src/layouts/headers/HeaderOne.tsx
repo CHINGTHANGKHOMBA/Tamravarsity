@@ -25,13 +25,13 @@ const HeaderOne = () => {
      <header id="header-sticky" className={`header-1 ${sticky ? "sticky" : ""}`}>
             <div className="container-fluid">
                 <div className="mega-menu-wrapper">
-                    <div className="header-main">
+                    <div className="header-main" style={{padding: "0px" }}>
                         <div className="header-left">
                             <div className="logo">
                                 <Link to="/" className="header-logo">
                                     {/* <img src="assets/img/logo/black-logo.svg" alt="logo-img" /> */}
-                                    <div className="header-left">
-                                    <img src={Tamravarsity} alt="Tamravarsity" />
+                                    <div className="header-left" style={{gap: "10px"}}>
+                                    <img src={Tamravarsity} style={{width: "7vh"}} alt="Tamravarsity" />
                                     <h3>Tamravarsity</h3>
                                     </div>
                                   

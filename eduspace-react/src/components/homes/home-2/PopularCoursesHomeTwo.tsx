@@ -74,11 +74,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -142,11 +142,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -210,11 +210,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -277,11 +277,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -345,11 +345,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -413,11 +413,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Leadership</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -485,11 +485,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -553,11 +553,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -621,11 +621,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -688,11 +688,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -756,11 +756,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -824,11 +824,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Leadership</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -896,11 +896,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -964,11 +964,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1032,11 +1032,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1099,11 +1099,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1167,11 +1167,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1235,11 +1235,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Leadership</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1307,11 +1307,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1375,11 +1375,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1443,11 +1443,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1510,11 +1510,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1578,11 +1578,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>
@@ -1646,11 +1646,11 @@ const PopularCoursesHomeTwo = () => {
                                                     <Link to="/courses">Leadership</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h3>

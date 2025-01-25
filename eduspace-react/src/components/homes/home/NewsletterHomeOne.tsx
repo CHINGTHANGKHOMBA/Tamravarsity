@@ -35,15 +35,15 @@ const NewsletterHomeOne = () => {
                     </form>
                     <ul className="list-items wow fadeInUp" data-wow-delay=".5s">
                         <li>
-                            <i className="far fa-check-circle"></i>
+                            <i className="fa-solid fa-check-circle"></i>
                             Positive reviews
                         </li>
                         <li>
-                            <i className="far fa-check-circle"></i>
+                            <i className="fa-solid fa-check-circle"></i>
                             Professional Instructors
                         </li>
                         <li>
-                            <i className="far fa-check-circle"></i>
+                            <i className="fa-solid fa-check-circle"></i>
                             370+ Happy Student 
                         </li>
                     </ul>
