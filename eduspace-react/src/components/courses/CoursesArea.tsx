@@ -566,7 +566,7 @@ const CoursesArea = () => {
                                             <Link to="/courses">CAA</Link>
                                         </li>
                                         <li>
-                                            <i className="fa-solid fa-star"></i>F
+                                            <i className="fa-solid fa-star"></i>
                                             <i className="fa-solid fa-star"></i>
                                             <i className="fa-solid fa-star"></i>
                                             <i className="fa-solid fa-star"></i>

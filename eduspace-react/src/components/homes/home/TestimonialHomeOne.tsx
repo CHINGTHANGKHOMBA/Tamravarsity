@@ -54,7 +54,7 @@ const TestimonialHomeOne = () => {
                 className="swiper testimonial-slider"> 
                     <SwiperSlide className="swiper-slide">
                         <div className="testimonial-box-items">
-                            <div className="testimonial-content">
+                            <div className="testimonial-content" >
                                 <div className="star">
                                     <i className="fa-solid fa-star"></i>
                                     <i className="fa-solid fa-star"></i>
@@ -62,11 +62,9 @@ const TestimonialHomeOne = () => {
                                     <i className="fa-solid fa-star"></i>
                                     <i className="fa-solid fa-star"></i>
                                 </div>
-                                <p>
-                                    "
-                                    The Tamravarsity ReactJS course is incredibly comprehensive, well-structured,
-                                     and expertly taught, making it an excellent resource for learning ReactJS."
-                                </p>
+                                <p style={{ padding: "", marginBottom: "5px"}}>
+                                "The Tamravarsity ReactJS course is comprehensive, well-structured, and expertly taught, making it an excellent resource for learning ReactJS."
+                                </p> <br />
                                 <div className="client-info">
                                     <h4>Robson Wairokpam</h4>
                                     <span>Web Developer</span>
@@ -88,9 +86,9 @@ const TestimonialHomeOne = () => {
                                     <i className="fa-solid fa-star"></i>
                                 </div>
                                 <p>
-                                The Tamravarsity Android App Development course is a fantastic learning experience, providing a solid foundation in 
-                                web development fundamentals and the latest industry trends.
-                                </p>
+                                "The Tamravarsity Android App Development course offers a fantastic learning experience, providing a solid foundation in web development and industry trends."
+                                
+                                </p> 
                                 <div className="client-info">
                                     <h4>Ronaldo</h4>
                                     <span>Android App Developer</span>
@@ -111,14 +109,13 @@ const TestimonialHomeOne = () => {
                                     <i className="fa-solid fa-star"></i>
                                     <i className="fa-solid fa-star"></i>
                                 </div>
-                                <p>
-                                The Tamravarsity Machine Learning course is an outstanding program that delivers hands-on expertise in machine learning concepts, 
-                                algorithms, and tools, preparing students for real-world applications.
+                                <p style={{ padding: "", marginBottom: "56px" }}>
+                                "The Tamravarsity Machine Learning course offers hands-on expertise in concepts, algorithms, and tools, preparing students for real-world applications."
                                 </p>
                                 <div className="client-info">
                                     <h4>Rhian</h4>
                                     <span>Machine Learning</span>
-                                </div>
+                                </div> <br />
                             </div>
                             <div className="testimonial-image">
                                 <img  style={{width: '20vh', height: '25vh'}} src={rhianImg} alt="img" />

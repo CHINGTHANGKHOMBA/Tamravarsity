@@ -9,7 +9,7 @@ const AboutCounter = () => {
                 <div className="counter-wrapper-2 bg-cover" style={{background: `url(/assets/img/counter-bg-3.jpg)`}}>
                     <div className="counter-items">
                         <div className="icon">
-                            <i className="flaticon-success"></i>
+                            <i className="fa-solid fa-graduation-cap"></i>
                         </div>
                         <div className="content">
                             <h2><span className="odometer" data-count="48.5"> <Count number={720} text='+' /> </span></h2>
@@ -27,7 +27,7 @@ const AboutCounter = () => {
                     </div> */}
                     <div className="counter-items">
                         <div className="icon">
-                            <i className="flaticon-satisfaction"></i>
+                            <i className="fa-solid fa-thumbs-up"></i>
                         </div>
                         <div className="content">
                             <h2><span className="odometer" data-count="99"><Count number={99} text='%' /></span></h2>
@@ -36,7 +36,7 @@ const AboutCounter = () => {
                     </div>
                     <div className="counter-items">
                         <div className="icon">
-                            <i className="flaticon-instructor"></i>
+                            <i className="fa-solid fa-chalkboard-user"></i>
                         </div>
                         <div className="content">
                             <h2><span className="odometer" data-count="250"><Count number={35} text='+' /></span></h2>
