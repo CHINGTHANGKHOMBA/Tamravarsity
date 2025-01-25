@@ -6,7 +6,7 @@ import UseSticky from "../../hooks/UseSticky";
 // import NiceSelect from "../../ui/NiceSelect";
 import OffCanvas from "../../common/OffCanvas";
 import MarqueeOne from "../../common/MarqueeOne";
-import Tamravarsity from "../../../public/assets/img/logo/tamravarsity.jpeg"
+import Tamravarsity from "../../../public/assets/img/logo/tamravarsityfooter.png"
 
  
 const HeaderOne = () => {

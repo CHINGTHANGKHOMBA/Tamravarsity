@@ -1,13 +1,5 @@
  
 import { Link } from "react-router-dom";
-// import ReactImg from "/assets/img/courses/ReactJS.png"
-// import DataAnalystImg from "/assets/img/courses/DataAnalyst.png"
-// import CloudComputingImg from "/public/assets/img/courses/Certified Cloud Computing and Virtualization Expert.png"
-// import WebDeveloperImg from "/public/assets/img/courses/Certified Web Developer.png"
-// import machineLearningImg from "/public/assets/img/courses/Foundation course in Machine Learning using Python.png"
-// import AIApplicationImg from "/public/assets/img/courses/Foundation course in Artificial Intelligence Applications.png"
-// import AIAssociateImg  from "/public/assets/img/courses/Certified AI Associate Upskilling.png"
-// import AndroidappImg  from "/public/assets/img/courses/Certified Android Apps Developer (Upskilling).png"
 
  
 
@@ -81,18 +73,18 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="/courses">React JS</Link>
+                                                    <Link to="">React JS</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="/courses-details">
+                                                <Link to="">
                                                     Learn With Advance Web
                                                     Development Course
                                                 </Link>
@@ -117,14 +109,14 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="">React JS</Link>
+                                                    <Link to="courses">React JS</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -188,20 +180,20 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="/courses">Web Developer</Link>
+                                                    <Link to="">Web Developer</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="/courses-details">
+                                                <Link to="">
                                                   Learn With Advance Web Developer
-                                                </Link>
+                                                </Link> 
                                             </h5>
                                             {/* <div className="client-items">
                                                 <div className="client-img bg-cover" style={{background: `url(assets/img/courses/client-1.png)`}}></div>
@@ -223,18 +215,18 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="">Web Developer</Link>
+                                                    <Link to="courses">Web Developer</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=8">
+                                                <Link to="">
                                                     Certified Web Development
                                                 </Link>
                                             </h5>
@@ -293,18 +285,18 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="/courses">Data Analyst</Link>
+                                                    <Link to="">Data Analyst</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=9">
+                                                <Link to="">
                                                    Advance Your Career in Data Analysis
                                                     
                                                 </Link>
@@ -329,14 +321,14 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="">Data Analyst</Link>
+                                                    <Link to="courses">Data Analyst</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -398,18 +390,18 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="/courses">Machine Learning</Link>
+                                                    <Link to="">Machine Learning</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="/courses-details">
+                                                <Link to="">
                                                   Learn Advance Machin Learing using Python
                                                 </Link>
                                             </h5>
@@ -433,14 +425,14 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="">Machin Learing</Link>
+                                                    <Link to="courses">Machin Learing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -503,18 +495,18 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="/courses">AI Applications</Link>
+                                                    <Link to="">AI Applications</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="/courses-details">
+                                                <Link to="">
                                                 Foundation course in AI Applications
                                                 </Link>
                                             </h5>
@@ -538,14 +530,14 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="">AI Applications</Link>
+                                                    <Link to="courses">AI Applications</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -610,11 +602,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="">AI Associate</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -642,14 +634,14 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="/courses">AI Associate</Link>
+                                                    <Link to="courses">AI Associate</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -715,15 +707,15 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="">Cloud Computing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="/courses-details">
+                                                <Link to="">
                                                 Certified Cloud Computing
                                                 </Link>
                                             </h5>
@@ -747,14 +739,14 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="">Cloud Computing</Link>
+                                                    <Link to="courses">Cloud Computing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -816,18 +808,18 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="/courses">Android Apps</Link>
+                                                    <Link to="">Android Apps</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="/courses-details">
+                                                <Link to="">
                                                 Certified Android Apps Developer (Upskilling)
                                                 </Link>
                                             </h5>
@@ -851,14 +843,14 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="/courses">Android Apps</Link>
+                                                    <Link to="courses">Android Apps</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -927,11 +919,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -963,11 +955,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1034,11 +1026,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1069,11 +1061,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1139,11 +1131,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1175,11 +1167,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1246,11 +1238,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1282,11 +1274,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1353,11 +1345,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1388,11 +1380,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1458,11 +1450,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Tech & AI</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1493,11 +1485,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Tech & AI</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1563,11 +1555,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1598,11 +1590,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1668,11 +1660,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Development</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1704,11 +1696,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Development</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1779,11 +1771,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1815,11 +1807,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1886,11 +1878,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1921,11 +1913,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -1991,11 +1983,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2027,11 +2019,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2098,11 +2090,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2134,11 +2126,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2205,11 +2197,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2240,11 +2232,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2310,11 +2302,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Tech & AI</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2345,11 +2337,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Tech & AI</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2415,11 +2407,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2450,11 +2442,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2520,11 +2512,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Development</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2556,11 +2548,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Development</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2631,11 +2623,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2667,11 +2659,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Design</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2738,11 +2730,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2773,11 +2765,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Business</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2843,11 +2835,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2879,11 +2871,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2950,11 +2942,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -2986,11 +2978,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Marketing</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -3057,11 +3049,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -3092,11 +3084,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Graphics</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -3162,11 +3154,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Tech & AI</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -3197,11 +3189,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Tech & AI</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -3267,11 +3259,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -3302,11 +3294,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Programming</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -3372,11 +3364,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Development</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>
@@ -3408,11 +3400,11 @@ const PopularCoursesHomeOne = () => {
                                                     <Link to="/courses">Development</Link>
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
-                                                    <i className="fas fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
+                                                    <i className="fa-solid fa-star"></i>
                                                 </li>
                                             </ul>
                                             <h5>

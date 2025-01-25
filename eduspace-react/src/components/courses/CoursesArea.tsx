@@ -563,10 +563,10 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link to="/courses">Computer Applications Associate</Link>
+                                            <Link to="/courses">CAA</Link>
                                         </li>
                                         <li>
-                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>F
                                             <i className="fa-solid fa-star"></i>
                                             <i className="fa-solid fa-star"></i>
                                             <i className="fa-solid fa-star"></i>
@@ -699,7 +699,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link to="/courses">Cloud Computing</Link>
+                                            <Link to="/courses">Cloud Computing Assistant</Link>
                                         </li>
                                         <li>
                                             <i className="fa-solid fa-star"></i>
@@ -767,7 +767,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link to="/courses">Computer Applications Associate</Link>
+                                            <Link to="/courses">Jr. Cloud Computing Associate</Link>
                                         </li>
                                         <li>
                                             <i className="fa-solid fa-star"></i>
@@ -973,7 +973,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link to="/courses">AI Associate</Link>
+                                            <Link to="/courses">AI Associate "Upskilling"</Link>
                                         </li>
                                         <li>
                                             <i className="fa-solid fa-star"></i>
