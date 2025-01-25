@@ -27,7 +27,7 @@ const ScrollToTop = () => {
 	return (
 		<> 
 			<button id="back-top" className={`back-to-top ${sticky && "show"}`} onClick={scrollTop}>
-				<i className="fas fa-long-arrow-up"></i>
+				<i className="fa-solid fa-long-arrow-up"></i>
 			</button>
 		</>
 	);

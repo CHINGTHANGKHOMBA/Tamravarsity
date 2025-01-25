@@ -67,11 +67,11 @@ const HeaderOne = () => {
                                     </nav>
                                 </div>
                             </div>
-                            <div className="header-search">
+                            {/* <div className="header-search">
                                 <button 
                                 onClick={ () => setOpen(!open)}
-                                className="d-flex align-items-center search-toggle"><i className="fas fa-search"></i></button>
-                            </div>
+                                className="d-flex align-items-center search-toggle"><i className="fa-solid fa-search"></i></button>
+                            </div> */}
                             {/* <div className="header-button">
                                 <Link to="/sign-in" className="theme-btn style-2"><i className="far fa-user"></i> Admin</Link>
                                 <Link to="/register" className="theme-btn yellow-btn">Enroll Now</Link>
