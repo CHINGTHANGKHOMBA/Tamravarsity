@@ -6,7 +6,7 @@ import UseSticky from "../../hooks/UseSticky";
 // import NiceSelect from "../../ui/NiceSelect";
 import OffCanvas from "../../common/OffCanvas";
 import MarqueeOne from "../../common/MarqueeOne";
-
+import Tamravarsity from "../../../public/assets/img/logo/tamravarsityfooter.png"
 
  
 const HeaderOne = () => {
@@ -31,7 +31,7 @@ const HeaderOne = () => {
                                 <Link to="/" className="header-logo">
                                     {/* <img src="assets/img/logo/black-logo.svg" alt="logo-img" /> */}
                                     <div className="header-left" style={{gap: "10px"}}>
-                                    <img src="../../../public/assets/img/logo/tamravarsityfooter.png" style={{width: "7vh"}} alt="Tamravarsity" />
+                                    <img src={Tamravarsity} style={{width: "7vh"}} alt="Tamravarsity" />
                                     <h3>Tamravarsity</h3>
                                     </div>
                                   
