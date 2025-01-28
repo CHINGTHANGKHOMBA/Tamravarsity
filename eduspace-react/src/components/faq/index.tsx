@@ -1,6 +1,6 @@
 import BreadcrumbEvent from "../../common/breadcrumb/BreadcrumbEvent";
 import MarqueeOne from "../../common/MarqueeOne";
-import Preloader from "../../common/Preloader";
+// import Preloader from "../../common/Preloader";
 import ScrollTop from "../../common/ScrollTop";
 import FooterOne from "../../layouts/footers/FooterOne";
 import HeaderOne from "../../layouts/headers/HeaderOne";
@@ -10,7 +10,7 @@ import FaqArea from "./FaqArea";
 const Faq = () => {
   return (
     <>
-    <Preloader />
+    {/* <Preloader /> */}
       <HeaderOne />
 			<BreadcrumbEvent title="Faq" subtitle="Faq" />
 			<FaqArea />       

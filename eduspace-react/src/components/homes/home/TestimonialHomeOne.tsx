@@ -2,9 +2,6 @@
 
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import robsonImg from "../../../../public/assets/img/testimonial/robson.jpg"
-import ronaldoImg from "../../../../public/assets/img/testimonial/ronaldo.jpeg"
-import rhianImg from "../../../../public/assets/img/testimonial/rhian.jpeg"
 
  
 
@@ -51,8 +48,8 @@ const TestimonialHomeOne = () => {
                       slidesPerView: 1,
                   },
               }}
-                className="swiper testimonial-slider"> 
-                    <SwiperSlide className="swiper-slide">
+                className="swiper testimonial-slider" > 
+                    <SwiperSlide className="swiper-slide" >
                         <div className="testimonial-box-items">
                             <div className="testimonial-content" >
                                 <div className="star">
@@ -71,7 +68,7 @@ const TestimonialHomeOne = () => {
                                 </div>
                             </div>
                             <div className="testimonial-image" >
-                                <img style={{width: '20vh', height: '25vh'}} src={robsonImg} alt="img" />
+                                <img style={{width: '20vh', height: '25vh'}} src="../../../../public/assets/img/testimonial/robson.jpg" alt="img" />
                             </div>
                         </div>
                     </SwiperSlide>
@@ -95,7 +92,7 @@ const TestimonialHomeOne = () => {
                                 </div>
                             </div>
                             <div className="testimonial-image">
-                            <img  style={{width: '20vh', height: '25vh'}} src={ronaldoImg} alt="img" />
+                            <img  style={{width: '20vh', height: '25vh'}} src="../../../../public/assets/img/testimonial/ronaldo.jpeg" alt="img" />
                             </div>
                         </div>
                     </SwiperSlide>
@@ -118,7 +115,7 @@ const TestimonialHomeOne = () => {
                                 </div> <br />
                             </div>
                             <div className="testimonial-image">
-                                <img  style={{width: '20vh', height: '25vh'}} src={rhianImg} alt="img" />
+                                <img  style={{width: '20vh', height: '25vh'}} src="../../../../public/assets/img/testimonial/rhian.jpeg" alt="img" />
                             </div>
                         </div>
                     </SwiperSlide>

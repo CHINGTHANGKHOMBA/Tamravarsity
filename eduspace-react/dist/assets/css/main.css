@@ -2869,7 +2869,7 @@ p {
 }
 
 .offcanvas__wrapper .offcanvas__content .offcanvas__close {
-  width: 45px;
+  width: px;
   height: 45px;
   line-height: 45px;
   text-align: center;

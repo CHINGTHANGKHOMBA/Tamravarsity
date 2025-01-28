@@ -1,6 +1,6 @@
 // import { Link } from "react-router-dom";
 import Count from "../../../common/Count";
-import hero1 from "../../../../public/assets/img/hero/hero-1.jpg";
+
 
  
 
@@ -37,11 +37,11 @@ const HeroHomeOne = () => {
                         </div>
                     </div>
                     <div className="hero-image">
-                        <img src={hero1} alt="img" className="img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                        <img src="../../../../public/assets/img/hero/hero-1.jpg" alt="img" className="img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s" />
                         <div className="counter-box float-bob-x">
                             <p>More then</p>
                             <h2><span className="odometer" data-count="2800">
-                              <Count number={18} text='+' />
+                              <Count number={24} text='+' />
                               </span></h2>
                             <p>Quality Courses</p>
                         </div>

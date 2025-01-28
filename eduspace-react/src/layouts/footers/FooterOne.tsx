@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import tamravarsity_logo from "../../../public/assets/img/logo/tamravarsityfooter.png"
+
 
  
 
@@ -17,7 +17,7 @@ const FooterOne = ({style_2} : any) => {
                                     {style_2 ? (
                                         <img src="assets/img/logo/black-logo-2.svg" alt="img" />
                                     ) : (
-                                        <img src={tamravarsity_logo} style={{width: "7vh"}} alt="img" />
+                                        <img src="../../../public/assets/img/logo/tamravarsityfooter.png" style={{width: "7vh"}} alt="img" />
                                     )}
                                     <h3 style={{ marginLeft: '10px' }}>Tamravarsity</h3>
                                     </Link>

@@ -18,7 +18,7 @@ const AboutHomeOne = () => {
                             <div className="section-title">
                                 <h6 className="wow fadeInUp">About Tamravarsity</h6>
                                 <h2 className="wow fadeInUp" data-wow-delay=".3s">  
-                                18+ Courses to Boost Your Career <br />
+                                24+ Courses to Boost Your Career <br />
                             
                                 </h2>
                             </div>
