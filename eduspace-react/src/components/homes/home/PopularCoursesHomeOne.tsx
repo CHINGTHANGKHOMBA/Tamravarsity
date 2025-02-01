@@ -120,7 +120,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=24">
+                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=41">
                                                     Learn With Advance Web
                                                    App
                                                 </Link>
@@ -144,7 +144,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=24" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=41" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -226,7 +226,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="">
+                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=26">
                                                     Certified Web Development
                                                 </Link>
                                             </h5>
@@ -249,7 +249,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=8" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=26" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -332,7 +332,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=9">
+                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=27">
                                                     Introduction Certified Data Analyst
                                                 </Link>
                                             </h5>
@@ -354,7 +354,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=9" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=27" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -436,7 +436,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=10">
+                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=28">
                                                 Foundation course in Machine Learning using Python
                                                 </Link>
                                             </h5>
@@ -459,7 +459,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=10" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=28" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -541,7 +541,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=11">
+                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=29">
                                                     Learn With Advance AI Applications
                                                 </Link>
                                             </h5>
@@ -563,7 +563,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=11" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=29" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -645,7 +645,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=12">
+                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=30">
                                                     Foundations of AI Associate "Upskilling"
                                                 </Link>
                                             </h5>
@@ -668,7 +668,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=12" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=30" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -750,7 +750,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=13">
+                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=31">
                                                 Certified Cloud Computing and Virtualization Expert
                                                 </Link>
                                             </h5>
@@ -772,7 +772,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=13" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=31" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -854,7 +854,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=14">
+                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=32">
                                                 Certified Android Apps Developer (Upskilling)
                                                 </Link>
                                             </h5>
@@ -876,7 +876,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=14" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=32" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
                                 </div>

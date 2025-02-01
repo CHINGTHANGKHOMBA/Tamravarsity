@@ -52,7 +52,7 @@ const CoursesArea = () => {
                                     <ul className="post-class">
                                         
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=24" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=41" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -119,7 +119,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=8" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=26" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -187,7 +187,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=9" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=27" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -254,7 +254,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=10" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=28" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -321,7 +321,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=11" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=29" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -388,7 +388,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=12" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=30" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -456,7 +456,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=13" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=31" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -524,7 +524,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="hhttps://courses.lamzingtech.com/course/view.php?id=14" className="theme-btn">Enroll Now</Link>
+                                            <Link to="hhttps://courses.lamzingtech.com/course/view.php?id=32" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -592,7 +592,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=15" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=33" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -660,7 +660,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=16" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=34" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -728,7 +728,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=17" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=35" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -796,7 +796,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=18" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=36" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -866,7 +866,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */} 
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=19" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=37" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -934,7 +934,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=20" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=38" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -1002,7 +1002,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=21" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=39" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -1070,7 +1070,7 @@ const CoursesArea = () => {
                                             80 Students
                                         </li> */}
                                         <li>
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=22" className="theme-btn">Enroll Now</Link>
+                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=40" className="theme-btn">Enroll Now</Link>
                                         </li>
                                     </ul>
                                 </div>
