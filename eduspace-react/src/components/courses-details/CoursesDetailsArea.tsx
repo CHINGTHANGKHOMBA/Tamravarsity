@@ -1,13 +1,24 @@
 import { useState } from "react";
 import VideoPopup from "../../modals/VideoPopup";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
+import { COURSES_DATA } from "../../courseData/courses_data";
 
- 
+
 
 const CoursesDetailsArea = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
+  const [searchParams] = useSearchParams(); // Get query params
+  const index = searchParams.get("index"); // Extract index
+  const course = index !== null ? COURSES_DATA[parseInt(index)] : null;
+
+
+  if (!course) {
+    return <h2>Course Not Found</h2>;
+  }
   return (
+
+
     <>
 
            {/* video modal start */}
@@ -17,6 +28,18 @@ const CoursesDetailsArea = () => {
         videoId={"Ml4XCF-JS0k"}
       />
       {/* video modal end */}
+
+      {/* <div>
+      {COURSES_DATA.map((course) => (
+        <Link to={`/courses-details/${encodeURIComponent(course.title)}`} key={course.title}>
+          <div className="courses-image">
+            <img src={course.image} alt={course.title} />
+            <h4 className="topic-title">{course.description}</h4>
+          </div>
+        </Link>
+      ))}
+    </div> */}
+      
       <section className="courses-details-section section-padding pt-0">
             <div className="container">
                 <div className="courses-details-wrapper">
@@ -24,7 +47,7 @@ const CoursesDetailsArea = () => {
                         <div className="col-lg-8">
                             <div className="courses-details-items">
                                 <div className="courses-image">
-                                    <img src="assets/img/courses/details-1.jpg" alt="img" />
+                                    <img src={course.image} alt={course.title} />
                                     <a 
                                     onClick={() => setIsVideoOpen(true)}
                                     style={{ cursor: "pointer" }}
@@ -39,16 +62,16 @@ const CoursesDetailsArea = () => {
                                                 Course Info
                                             </a>
                                         </li>
-                                        <li className="nav-item wow fadeInUp" data-wow-delay=".5s">
+                                        {/* <li className="nav-item wow fadeInUp" data-wow-delay=".5s">
                                             <a href="#Curriculum" data-bs-toggle="tab" className="nav-link">
                                                 Curriculum
                                             </a>
-                                        </li>
-                                        <li className="nav-item wow fadeInUp" data-wow-delay=".5s">
+                                        </li> */}
+                                        {/* <li className="nav-item wow fadeInUp" data-wow-delay=".5s">
                                             <a href="#Instructors" data-bs-toggle="tab" className="nav-link">
                                                 Instructors
                                             </a>
-                                        </li>
+                                        </li> */}
                                         <li className="nav-item wow fadeInUp" data-wow-delay=".5s">
                                             <a href="#Reviews" data-bs-toggle="tab" className="nav-link bb-none">
                                                 Reviews
@@ -60,54 +83,75 @@ const CoursesDetailsArea = () => {
                                             <div className="description-content">
                                                 <h3>Description</h3>
                                                 <p className="mb-3">
-                                                    UX/UI design focuses on creating user-friendly and visually appealing digital experiences, ensuring
-                                                    that products such as websites and apps are both intuitive and enjoyable UX (User Experience) Design involves understanding the needs, behaviors, and pain points of users to create a seamless, effective experience process includes conducting user research, mapping user journeys.
+                                                {course.description1}
                                                 </p>
                                                 <p>
-                                                    UI (User Interface) Design is the process of creating the visual elements of a product, including layout, color schemes, typography, and interactive features like buttons and icons.
+                                                {course.description2}
                                                 </p>
                                                 <h3 className="mt-5">What you'll learn in this course?</h3>
                                                 <p className="mb-4">
-                                                    Together, UX and UI design ensure that digital products are not only functional and accessible but also engaging and visually coherent, enhancing both usability and overall user satisfaction.
+                                                The course is designed for beginners with no prior experience and offers a certificate upon completion.
                                                 </p>
                                                 <div className="row g-4 mb-5">
-                                                    <div className="col-lg-6">
+                                                    <div className="col-lg-12">
                                                         <ul className="list-item">
                                                             <li>
                                                                 <i className="fas fa-check-circle"></i>
-                                                                Introduction to UX/UI Design
+                                                               {/* <h4>{course.course_schedule?.description}</h4> <br /> */}
+                                                               <ul>
+                                                               <li>
+                                                                    {course.course_schedule?.["syllabus"]
+                                                                        ?.split(" :") // Split text by " :"
+                                                                        .map((item, index) => {
+                                                                        const trimmedItem = item.trim();
+                                                                        const isTitle = trimmedItem.endsWith("-"); // Detects section titles dynamically
+
+                                                                        return (
+                                                                            <span key={index}>
+                                                                            {isTitle ? <h4>{trimmedItem}</h4> : trimmedItem}
+                                                                            <br />
+                                                                            </span>
+                                                                        );
+                                                                        })}
+                                                                    </li>
+
+                                                               </ul>
+                                                             
+                                                           
+
                                                             </li>
                                                             <li>
                                                                 <i className="fas fa-check-circle"></i>
-                                                                Design Thinking & User Research
+                                                                {/* <h4>{course.course_schedule?.description}</h4> <br /> */}
+                                                               <ul>
+                                                               {/* <li>
+                                                                    {course.course_schedule?.["syllabus"]
+                                                                    ?.split(": ")
+                                                                    .map((item, index) => (
+                                                                        <span key={index}>
+                                                                        {item}
+                                                                        <br />
+                                                                        </span>
+                                                                    ))}
+                                                                </li> */}
+                                                               </ul>
                                                             </li>
-                                                            <li>
-                                                                <i className="fas fa-check-circle"></i>
-                                                                Wireframing & Prototyping
-                                                            </li>
-                                                            <li>
-                                                                <i className="fas fa-check-circle"></i>
-                                                                Visual Design Principles
-                                                            </li>
-                                                            <li>
-                                                                <i className="fas fa-check-circle"></i>
-                                                                Interaction Design & Usability
-                                                            </li>
+                                                           
                                                         </ul>
                                                     </div>
-                                                    <div className="col-lg-6">
+                                                    {/* <div className="col-lg-6">
                                                         <ul className="list-item">
                                                             <li>
                                                                 <i className="fas fa-check-circle"></i>
-                                                                UX Writing & Content Strategy
+                                                                Forms & Validation
                                                             </li>
                                                             <li>
                                                                 <i className="fas fa-check-circle"></i>
-                                                                Usability Testing & Iteration
+                                                                Performance Optimization
                                                             </li>
                                                             <li>
                                                                 <i className="fas fa-check-circle"></i>
-                                                                UI Design Tools
+                                                                State Management with Redux (Optional)
                                                             </li>
                                                             <li>
                                                                 <i className="fas fa-check-circle"></i>
@@ -115,19 +159,18 @@ const CoursesDetailsArea = () => {
                                                             </li>
                                                             <li>
                                                                 <i className="fas fa-check-circle"></i>
-                                                                Capstone Project
+                                                                Deployment & Best Practices
                                                             </li>
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                                 <h3>How to Benefits in this Courses</h3>
                                                 <p>
-                                                    UI (User Interface) Design is the process of creating the visual elements of product, including layout
-                                                    olor schemes, typography, and interactive features like buttons and icons design focuses aesthetics, consistency, and ensuring that the user can easily navigate and interact with the product.
+                                               {course.description4}
                                                 </p>
                                             </div>
                                         </div>
-                                        <div id="Curriculum" className="tab-pane fade">
+                                        {/* <div id="Curriculum" className="tab-pane fade">
                                             <div className="course-curriculum-items">
                                                 <h3>Course Curriculum</h3>
                                                 <div className="courses-faq-items">
@@ -289,8 +332,8 @@ const CoursesDetailsArea = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div id="Instructors" className="tab-pane fade">
+                                        </div> */}
+                                        {/* <div id="Instructors" className="tab-pane fade">
                                             <div className="instructors-items">
                                                 <h3>Instructors</h3>
                                                 <div className="instructors-box-items">
@@ -332,7 +375,7 @@ const CoursesDetailsArea = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div id="Reviews" className="tab-pane fade">
                                             <div className="courses-reviews-items">
                                                 <h3>Course Reviews</h3>
@@ -417,7 +460,7 @@ const CoursesDetailsArea = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="instructors-box-items">
+                                                    {/* <div className="instructors-box-items">
                                                         <div className="thumb">
                                                             <img src="assets/img/courses/instructors-3.png" alt="img" />
                                                         </div>
@@ -435,7 +478,7 @@ const CoursesDetailsArea = () => {
                                                                 "I enrolled in this UX/UI design course with minimal knowledge the field, and it completely transformed my understanding."
                                                             </p>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -447,8 +490,8 @@ const CoursesDetailsArea = () => {
                             <div className="courses-sidebar-area sticky-style">
                                 <div className="courses-items">
                                     <div className="courses-image">
-                                        <img src="assets/img/courses/22.jpg" alt="img" />
-                                        <h3 className="courses-title">Development</h3>
+                                        <img src={course.image} alt={course.title} />
+                                        {/* <h3 className="courses-title">React JS</h3> */}
                                         <h4 className="topic-title">Web Development</h4>
                                         <div className="arrow-items">
                                             <div className="GlidingArrow">
@@ -472,26 +515,26 @@ const CoursesDetailsArea = () => {
                                         </div>
                                     </div>
                                     <div className="courses-content">
-                                        <h3>$156.00</h3>
+                                
                                         <p>
-                                            UX (User Experience) Design the involves understanding needs, behaviors.
+                                           {course.description3}
                                         </p>
                                         <div className="courses-btn">
-                                            <Link to="/courses-details" className="theme-btn">Add to Cart</Link>
-                                            <Link to="/courses-details" className="theme-btn style-2">Buy Course</Link>
+                                            <Link to="https://docs.google.com/forms/d/1Aca3WPaOzTPqnwsgRQaVGwvS7vnIKGISm4KvkTcvw5M/viewform?edit_requested=true" className="theme-btn">EnRoll Now</Link>
+                                            
                                         </div>
                                     </div>
                                 </div>
                                 <div className="courses-category-items">
                                     <h5>Course Includes:</h5>
                                     <ul>
-                                        <li>
+                                        {/* <li>
                                             <span>
                                                 <i className="far fa-chalkboard-teacher"></i>
                                                 Instructor
                                             </span>
                                             <span className="text">Mario S. Davis</span>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <span>
                                                 <i className="far fa-user"></i>
@@ -518,15 +561,16 @@ const CoursesDetailsArea = () => {
                                                 <i className="far fa-globe"></i>
                                                 Language
                                             </span>
-                                            <span className="text">English</span>
+                                            <span className="text">Manipuri</span>
+                                             <span className="text">English</span>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <span>
                                                 <i className="far fa-calendar-alt"></i>
                                                 Deadline
                                             </span>
                                             <span className="text">15 December 2024</span>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <span>
                                                 <i className="far fa-signal-alt"></i>
@@ -542,7 +586,7 @@ const CoursesDetailsArea = () => {
                                             <span className="text">Yes</span>
                                         </li>
                                     </ul>
-                                    <Link to="/courses-details" className="share-btn"><i className="fas fa-share"></i> Share this courses</Link>
+                                    {/* <Link to="/courses-details" className="share-btn"><i className="fas fa-share"></i> Share this courses</Link> */}
                                 </div>
                             </div>
                         </div>

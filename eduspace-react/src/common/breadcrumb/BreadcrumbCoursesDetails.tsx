@@ -25,7 +25,7 @@ const BreadcrumbCoursesDetails = () => {
                     <li><Link to="/courses-grid">Courses</Link></li>
                     <li className="style-2"> Course Details</li>
                 </ul>
-                <div className="breadcrumb-content">
+                {/* <div className="breadcrumb-content">
                     <h1>Advance UX/UI Design Using Figma</h1>
                     <div className="courses-breadcrumb-items">
                         <div className="client-image-items">
@@ -61,7 +61,7 @@ const BreadcrumbCoursesDetails = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         </section>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import VideoPopup from "../../modals/VideoPopup";
 import { Link } from "react-router-dom";
 
+
  
 const CoursesDetailsTwoArea = () => {
 
@@ -17,6 +18,9 @@ const CoursesDetailsTwoArea = () => {
         videoId={"Ml4XCF-JS0k"}
       />
       {/* video modal end */}
+
+     
+     
          <section className="courses-details-section section-padding pt-0">
             <div className="container">
                 <div className="courses-details-wrapper">

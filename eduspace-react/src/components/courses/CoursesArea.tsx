@@ -17,7 +17,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=41">
+                  <Link to={`/courses-details?index=0`}>
                     <div className="courses-image">
                       <img src="assets/img/courses/ReactJS.png" alt="ReactJS" />
                       {/* <h3 className="courses-title">React JS</h3> */}
@@ -61,7 +61,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=26">
+                <Link to={`/courses-details?index=1`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CertifiedWebDeveloper.png"
@@ -136,7 +136,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=27">
+                <Link to={`/courses-details?index=2`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CertifiedDataAnalyst.png"
@@ -212,7 +212,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=28">
+                <Link to={`/courses-details?index=3`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/MachineLearning.png"
@@ -289,7 +289,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=29">
+                <Link to={`/courses-details?index=4`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AIApplications.png"
@@ -364,7 +364,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=30">
+                <Link to={`/courses-details?index=5`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AIAssociate.png"
@@ -442,7 +442,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=31">
+                <Link to={`/courses-details?index=6`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CloudComputing.png"
@@ -520,7 +520,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=32">
+                <Link to={`/courses-details?index=7`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AndroidApps.png"
@@ -598,7 +598,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=33">
+                <Link to={`/courses-details?index=8`}>
                     <div className="courses-image">
                       <img src="assets/img/courses/CAA.png" alt="CAA" />
                       {/* <h3 className="courses-title">Computer Applications Associate"</h3>
@@ -671,7 +671,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=34">
+                <Link to={`/courses-details?index=9`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/DataEntry.png"
@@ -751,7 +751,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=35">
+                <Link to={`/courses-details?index=10`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CloudComputingAssistant.png"
@@ -829,7 +829,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=36">
+                <Link to={`/courses-details?index=11`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/JuniorCloudComputing.png"
@@ -907,7 +907,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=37">
+                <Link to={`/courses-details?index=12`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CloudComputingAssociate.png"
@@ -984,7 +984,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                    <Link to="https://courses.lamzingtech.com/course/view.php?id=38">
+                <Link to={`/courses-details?index=13`}>
                     <div className="courses-image">
                     <img
                       src="assets/img/courses/AIAssistant.png"
@@ -1061,7 +1061,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=39">
+                <Link to={`/courses-details?index=14`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AIAssociate.png"
@@ -1137,7 +1137,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to="https://courses.lamzingtech.com/course/view.php?id=40">
+                <Link to={`/courses-details?index=15`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AIApplicationDeveloper.jpg"

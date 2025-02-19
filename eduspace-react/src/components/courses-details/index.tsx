@@ -1,22 +1,22 @@
 import BreadcrumbCoursesDetails from "../../common/breadcrumb/BreadcrumbCoursesDetails";
 import MarqueeOne from "../../common/MarqueeOne";
-import Preloader from "../../common/Preloader";
+// import Preloader from "../../common/Preloader";
 import ScrollTop from "../../common/ScrollTop";
 import FooterOne from "../../layouts/footers/FooterOne";
 import HeaderOne from "../../layouts/headers/HeaderOne";
 import CoursesDetailsArea from "./CoursesDetailsArea";
-import RelatedCourses from "./RelatedCourses";
+// import RelatedCourses from "./RelatedCourses";
 
  
 
 const CoursesDetails = () => {
   return (
     <>
-    <Preloader />
+    {/* <Preloader /> */}
     <HeaderOne />
     <BreadcrumbCoursesDetails />
     <CoursesDetailsArea />
-    <RelatedCourses />
+    {/* <RelatedCourses /> */}
     <MarqueeOne style_2={true} />
     <FooterOne /> 
     <ScrollTop />     
