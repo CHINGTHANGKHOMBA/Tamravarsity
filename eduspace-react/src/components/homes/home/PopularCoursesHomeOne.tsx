@@ -70,6 +70,8 @@ const PopularCoursesHomeOne = () => {
                                                 </div>
                                             </div>
                                         </div>
+
+                                      
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
@@ -105,6 +107,9 @@ const PopularCoursesHomeOne = () => {
                                             </ul> */}
                                         </div>
                                     </div>
+
+
+                                    <Link to={`/courses-details?id=1`}>
                                     <div className="courses-card-items-hover">
                                         <div className="courses-content">
                                             <ul className="post-cat">
@@ -147,6 +152,8 @@ const PopularCoursesHomeOne = () => {
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=41" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
+                                        </Link>
+                                    
                                 </div>
                             </div>
                             <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
@@ -211,6 +218,8 @@ const PopularCoursesHomeOne = () => {
                                             </ul> */}
                                         </div>
                                     </div>
+
+                                    <Link to={`/courses-details?id=2`}>
                                     <div className="courses-card-items-hover">
                                         <div className="courses-content">
                                             <ul className="post-cat">
@@ -252,6 +261,8 @@ const PopularCoursesHomeOne = () => {
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=26" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
+                                    </Link>
+                                    
                                 </div>
                             </div>
                             <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
@@ -317,6 +328,9 @@ const PopularCoursesHomeOne = () => {
                                             </ul> */}
                                         </div>
                                     </div>
+
+
+                                    <Link to={`/courses-details?id=3`}>
                                     <div className="courses-card-items-hover">
                                         <div className="courses-content">
                                             <ul className="post-cat">
@@ -357,6 +371,8 @@ const PopularCoursesHomeOne = () => {
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=27" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
+                                    </Link>
+                                    
                                 </div>
                             </div>
                             <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
@@ -421,6 +437,8 @@ const PopularCoursesHomeOne = () => {
                                             </ul> */}
                                         </div>
                                     </div>
+
+                                     <Link to={`/courses-details?id=4`}>
                                     <div className="courses-card-items-hover">
                                         <div className="courses-content">
                                             <ul className="post-cat">
@@ -462,6 +480,8 @@ const PopularCoursesHomeOne = () => {
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=28" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
+                                    </Link>
+                                    
                                 </div>
                             </div>
                             <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -526,6 +546,8 @@ const PopularCoursesHomeOne = () => {
                                             </ul> */}
                                         </div>
                                     </div>
+                                    
+                                    <Link to={`/courses-details?id=5`}>
                                     <div className="courses-card-items-hover">
                                         <div className="courses-content">
                                             <ul className="post-cat">
@@ -566,6 +588,8 @@ const PopularCoursesHomeOne = () => {
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=29" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
+                                    </Link> 
+                                    
                                 </div>
                             </div>
                             <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
@@ -630,6 +654,8 @@ const PopularCoursesHomeOne = () => {
                                             </ul> */}
                                         </div>
                                     </div>
+                                   
+                                    <Link to={`/courses-details?id=6`}>
                                     <div className="courses-card-items-hover">
                                         <div className="courses-content">
                                             <ul className="post-cat">
@@ -671,6 +697,8 @@ const PopularCoursesHomeOne = () => {
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=30" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
+                                    </Link> 
+                                    
                                 </div>
                             </div>
                             <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
@@ -735,6 +763,8 @@ const PopularCoursesHomeOne = () => {
                                             </ul> */}
                                         </div>
                                     </div>
+                              
+                                    <Link to={`/courses-details?id=7`}>
                                     <div className="courses-card-items-hover">
                                         <div className="courses-content">
                                             <ul className="post-cat">
@@ -775,6 +805,8 @@ const PopularCoursesHomeOne = () => {
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=31" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
+                                    </Link> 
+                                    
                                 </div>
                             </div>
                             <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
@@ -839,6 +871,7 @@ const PopularCoursesHomeOne = () => {
                                             </ul> */}
                                         </div>
                                     </div>
+                                    <Link to={`/courses-details?id=8`}>
                                     <div className="courses-card-items-hover">
                                         <div className="courses-content">
                                             <ul className="post-cat">
@@ -879,6 +912,8 @@ const PopularCoursesHomeOne = () => {
                                             <Link to="https://courses.lamzingtech.com/course/view.php?id=32" className="theme-btn yellow-btn">Enroll Now</Link>
                                         </div>
                                     </div>
+                                    </Link>
+                                    
                                 </div>
                             </div>
                         </div>

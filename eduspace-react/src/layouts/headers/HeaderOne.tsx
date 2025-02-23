@@ -7,7 +7,7 @@ import UseSticky from "../../hooks/UseSticky";
 import OffCanvas from "../../common/OffCanvas";
 import MarqueeOne from "../../common/MarqueeOne";
 import Tamravarsity from "../../../public/assets/img/logo/tamravarsityfooter.png"
-
+import { useAuth } from "../../components/sign-in/auth";
  
 const HeaderOne = () => {
 
@@ -18,7 +18,7 @@ const HeaderOne = () => {
   const [open, setOpen] = useState(false)
   const [openCanvas, setOpenCanvas] = useState(false)
 
-
+  const { isAuthenticated, logout } = useAuth();
   return (
     <>
     <MarqueeOne />
@@ -72,10 +72,20 @@ const HeaderOne = () => {
                                 onClick={ () => setOpen(!open)}
                                 className="d-flex align-items-center search-toggle"><i className="fa-solid fa-search"></i></button>
                             </div> */}
-                            {/* <div className="header-button">
-                                <Link to="/sign-in" className="theme-btn style-2"><i className="far fa-user"></i> Admin</Link>
-                                <Link to="/register" className="theme-btn yellow-btn">Enroll Now</Link>
-                            </div> */}
+                            <div className="header-button">
+                            {isAuthenticated ? (
+                                    <button onClick={logout} className="theme-btn style-2">
+                                   <i className="fa-solid fa-arrow-left-to-bracket"></i> Logout
+                                    </button>
+                                ) : (
+                                    <Link to="/sign-in" className="theme-btn style-2">
+                                    <i className="fa-solid fa-arrow-right-to-bracket"></i> Login
+                                    </Link>
+                                )}
+                             
+                            </div>
+
+                               {/* <Link to="/register" className="theme-btn yellow-btn">Enroll Now</Link> */}
                             <div className="header__hamburger d-xl-none my-auto">
                                 <div className="sidebar__toggle">
                                     <div className="header-bar" onClick={ () => setOpenCanvas(!openCanvas)}>

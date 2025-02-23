@@ -23,7 +23,7 @@ const HomeOne = () => {
 
 	return (
 		<> 
-		<Preloader />
+		{/* <Preloader /> */}
 			<HeaderOne />
 		<HeroHomeOne />
 		<FeatureHomeOne />

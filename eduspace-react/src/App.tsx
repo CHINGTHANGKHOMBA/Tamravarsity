@@ -35,6 +35,7 @@ import Register from "./components/register";
 import NotFound from "./components/Error";
 import Contact from "./components/contact";
 
+import { AuthProvider } from "./components/sign-in/auth"; // Import AuthProvider
 
 const router = createBrowserRouter([
   { path: "/", element: <HomeOne /> },
@@ -79,9 +80,12 @@ const router = createBrowserRouter([
 function App() {
 
   return (
+    <AuthProvider>
+
     <Wrapper> 
       <RouterProvider router={router} />
     </Wrapper>
+    </AuthProvider>
   )
 }
 

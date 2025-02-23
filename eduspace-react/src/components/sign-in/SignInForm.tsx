@@ -1,58 +1,40 @@
- 
+import { GoogleLogin, CredentialResponse } from "@react-oauth/google";
+import { jwtDecode } from "jwt-decode";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "./auth"; // Import useAuth
 
-const SignInForm = () => {
+
+const SignIn = () => {
+  const navigate = useNavigate();
+  const { isAuthenticated, login, logout } = useAuth(); // Use global auth state
+
   return (
-    <>
-       <section className="sign-in-section section-padding fix">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-xl-8">
-                        <div className="sign-in-items">
-                            <div className="title text-center">
-                                <h2 className="wow fadeInUp">Sign In to your Account</h2>
-                            </div>
-                            <form onSubmit={e => e.preventDefault()} id="contact-form" method="POST">
-                                <div className="row g-4">
-                                    <div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
-                                        <div className="form-clt style-2">
-                                            <span>Username *</span>
-                                            <input type="text" name="name" id="name" placeholder="Username" />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
-                                        <div className="form-clt">
-                                            <span>Password *</span>
-                                            <input id="password" type="password" placeholder="Password" />
-                                            <div className="icon">
-                                                <i className="far fa-eye-slash"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-12">
-                                        <div className="from-cheak-items">
-                                            <div className="form-check d-flex gap-2 from-customradio">
-                                                <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                                                <label className="form-check-label" htmlFor="flexRadioDefault1">
-                                                    Remember Me
-                                                </label>
-                                            </div>
-                                            <span>Forgot Password?</span>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 wow fadeInUp" data-wow-delay=".4s">
-                                        <button type="submit" className="theme-btn">
-                                            Sign In
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </>
+   <>
+  <div>
+      {!isAuthenticated ? (
+        <GoogleLogin
+          onSuccess={(credentialResponse: CredentialResponse) => {
+            if (credentialResponse.credential) {
+              const decoded = jwtDecode(credentialResponse.credential);
+              console.log("Decoded:", decoded);
+
+              login(credentialResponse.credential); // Update global state
+              navigate("/", { replace: true }); // Redirect immediately
+            } else {
+              console.log("No credential received");
+            }
+          }}
+          onError={() => console.log("Login failed")}
+        />
+      ) : (
+        <button onClick={logout} className="theme-btn style-2">
+          <i className="far fa-sign-out"></i> Logout
+        </button>
+      )}
+    </div>
+   </>
+  
   );
 };
 
-export default SignInForm;
+export default SignIn;

@@ -1,8 +1,27 @@
 import { Link } from "react-router-dom";
 // import NiceSelect from "../../ui/NiceSelect";
+import { useEffect, useState } from "react";
+
 
 const CoursesArea = () => {
   //   const selectHandler = (_e: any) => { };
+  const [courses, setCourses] = useState([]);
+
+  useEffect(() => {
+    fetch("http://127.0.0.1:8000/api/courses/")
+      .then((response) => {
+        console.log("Response Status:", response.status); // Debugging response status
+        return response.json(); // Convert response to JSON
+      })
+      .then((data) => {
+        console.log("responses", data); // Log the fetched data
+        setCourses(data);
+      })
+      .catch((error) => console.log("Fetch error:", error)); // Log errors
+  }, []);
+
+  console.log("res", courses)
+
 
   return (
     <>
@@ -17,7 +36,10 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                  <Link to={`/courses-details?index=0`}>
+
+                  {/* <Link to={`/courses-details?index=0`}> */}
+                  <Link to={`/courses-details?id=1`}>
+
                     <div className="courses-image">
                       <img src="assets/img/courses/ReactJS.png" alt="ReactJS" />
                       {/* <h3 className="courses-title">React JS</h3> */}
@@ -61,7 +83,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=1`}>
+                <Link to={`/courses-details?id=2`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CertifiedWebDeveloper.png"
@@ -136,7 +158,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=2`}>
+                <Link to={`/courses-details?id=3`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CertifiedDataAnalyst.png"
@@ -212,7 +234,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=3`}>
+                <Link to={`/courses-details?id=4`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/MachineLearning.png"
@@ -289,7 +311,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=4`}>
+                <Link to={`/courses-details?id=5`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AIApplications.png"
@@ -364,7 +386,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=5`}>
+                <Link to={`/courses-details?id=6`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AIAssociate.png"
@@ -442,7 +464,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=6`}>
+                <Link to={`/courses-details?id=7`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CloudComputing.png"
@@ -520,7 +542,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=7`}>
+                <Link to={`/courses-details?id=8`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AndroidApps.png"
@@ -598,7 +620,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=8`}>
+                <Link to={`/courses-details?id=9`}>
                     <div className="courses-image">
                       <img src="assets/img/courses/CAA.png" alt="CAA" />
                       {/* <h3 className="courses-title">Computer Applications Associate"</h3>
@@ -671,7 +693,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=9`}>
+                <Link to={`/courses-details?id=10`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/DataEntry.png"
@@ -751,7 +773,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=10`}>
+                <Link to={`/courses-details?id=11`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CloudComputingAssistant.png"
@@ -829,7 +851,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=11`}>
+                <Link to={`/courses-details?id=12`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/JuniorCloudComputing.png"
@@ -907,7 +929,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=12`}>
+                <Link to={`/courses-details?id=13`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/CloudComputingAssociate.png"
@@ -984,7 +1006,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=13`}>
+                <Link to={`/courses-details?id=14`}>
                     <div className="courses-image">
                     <img
                       src="assets/img/courses/AIAssistant.png"
@@ -1061,7 +1083,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=14`}>
+                <Link to={`/courses-details?id=15`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AIAssociate.png"
@@ -1137,7 +1159,7 @@ const CoursesArea = () => {
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="courses-card-main-items">
                 <div className="courses-card-items style-2">
-                <Link to={`/courses-details?index=15`}>
+                <Link to={`/courses-details?id=16`}>
                     <div className="courses-image">
                       <img
                         src="assets/img/courses/AIApplicationDeveloper.jpg"
