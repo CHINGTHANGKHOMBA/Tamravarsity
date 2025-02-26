@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import VideoPopup from "../../modals/VideoPopup";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 // import { COURSES_DATA } from "../../courseData/courses_data";
+import { useAuth } from "../../components/sign-in/auth";
 
 
 type Course = {
@@ -19,7 +20,18 @@ const CoursesDetailsArea = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const id = queryParams.get("id"); // Extract ID from URL
- 
+
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleEnrollClick = (e: { preventDefault: () => void; }) => {
+    if (!isAuthenticated) {
+      e.preventDefault(); // Prevent navigation
+      setShowPopup(true);
+    }
+  };
+
+  const { isAuthenticated } = useAuth();
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (!id) return; // Prevent fetching if ID is null
@@ -84,7 +96,7 @@ const CoursesDetailsArea = () => {
                                             </a>
                                         </li> */}
                                     </ul>
-                                    <div id="Course" className="tab-pane fade show active" style={{ padding: "15px", textAlign: "center" }}>
+                                    <div id="Course" className="tab-pane fade show active" style={{ padding: "15px", textAlign: "left" }}>
                                             <div className="courses-details-box">
                                                 {course?.course_details ? (
                                                 <div dangerouslySetInnerHTML={{ __html: String(course.course_details) }} />
@@ -243,9 +255,38 @@ const CoursesDetailsArea = () => {
                                            {/* {course.description3} */}
                                         </p>
                                         <div className="courses-btn">
+                                                {isAuthenticated ? (
+                                                    <Link
+                                                    to="https://docs.google.com/forms/d/1Aca3WPaOzTPqnwsgRQaVGwvS7vnIKGISm4KvkTcvw5M/viewform?edit_requested=true"
+                                                    className="theme-btn"
+                                                    >
+                                                    Enroll Now
+                                                    </Link>
+                                                ) : (
+                                                    <button onClick={handleEnrollClick} className="theme-btn">
+                                                    Enroll Now
+                                                    </button>
+                                                )}
+
+                                                {/* Popup for login warning */}
+                                                {showPopup && (
+                                                    <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
+                                                    <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                                                        <p className="text-lg font-semibold mb-4">Please log in to enroll!</p>
+                                                        <button
+                                                        onClick={() => navigate("/sign-in")}
+                                                        className="bg-blue-500 text-black px-4 py-2 rounded"
+                                                        >
+                                                        Go to Login
+                                                        </button>
+                                                    </div>
+                                                    </div>
+                                                )}
+                                                </div>
+                                        {/* <div className="courses-btn">
                                             <Link to="https://docs.google.com/forms/d/1Aca3WPaOzTPqnwsgRQaVGwvS7vnIKGISm4KvkTcvw5M/viewform?edit_requested=true" className="theme-btn">EnRoll Now</Link>
                                             
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="courses-category-items">

@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
 import MobileMenu from "../layouts/headers/MobileMenu";
+import { useAuth } from "../components/sign-in/auth";
  
 
 const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
+
+
+      
+        const { isAuthenticated, logout } = useAuth();
+        
   return (
     <>
       <div className="fix-area">
@@ -30,6 +36,21 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
                             <a href="#"><i className="fab fa-youtube"></i></a>
                             <a href="#"><i className="fab fa-linkedin-in"></i></a>
                         </div>
+
+                        <div className="header-button">
+                                                    {isAuthenticated ? (
+                                                            <button onClick={logout} className="theme-btn style-2">
+                                                          <i className="fa-solid fa-user"></i> Logout
+                        
+                                                            </button>
+                                                        ) : (
+                                                            <Link to="/sign-in" className="theme-btn style-2">
+                                                            <i className="fa-solid fa-arrow-right-to-bracket"></i> Login
+                                                            </Link>
+                                                        )}
+                                                     
+                                                    </div>
+                                                    <br />
                         <div className="mobile-menu fix mb-3 mean-container">
                           <MobileMenu />
                         </div>

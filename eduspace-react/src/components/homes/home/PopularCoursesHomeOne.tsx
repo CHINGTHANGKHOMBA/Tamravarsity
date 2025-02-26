@@ -114,7 +114,7 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="courses">React JS</Link>
+                                                    <Link to="">React JS</Link>
                                                 </li>
                                                 <li>
                                                     <i className="fa-solid fa-star"></i>
@@ -125,7 +125,7 @@ const PopularCoursesHomeOne = () => {
                                                 </li>
                                             </ul>
                                             <h5>
-                                                <Link to="https://courses.lamzingtech.com/course/view.php?id=41">
+                                                <Link to="">
                                                     Learn With Advance Web
                                                    App
                                                 </Link>
@@ -149,7 +149,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=41" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                         </Link>
@@ -224,7 +224,7 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="courses">Web Developer</Link>
+                                                    <Link to="">Web Developer</Link>
                                                 </li>
                                                 <li>
                                                     <i className="fa-solid fa-star"></i>
@@ -258,7 +258,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=26" className="theme-btn yellow-btn">Enroll Now</Link>
+                                              <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                     </Link>
@@ -335,7 +335,7 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="courses">Data Analyst</Link>
+                                                    <Link to="">Data Analyst</Link>
                                                 </li>
                                                 <li>
                                                     <i className="fa-solid fa-star"></i>
@@ -353,7 +353,7 @@ const PopularCoursesHomeOne = () => {
                                             {/* <h4>$85</h4> */} <br />
                                             <span>
                                             A data analyst turns data into insights to inform business decisions.
-                                            </span>
+                                            </span> <br />
                                             {/* <div className="client-items">
                                                 <div className="client-img bg-cover" style={{background: `url(assets/img/courses/client-1.png)`}}></div>
                                                 <p>Paul C. Deleon</p>
@@ -368,7 +368,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=27" className="theme-btn yellow-btn">Enroll Now</Link>
+                                             <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                     </Link>
@@ -443,7 +443,7 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="courses">Machin Learing</Link>
+                                                    <Link to="">Machin Learing</Link>
                                                 </li>
                                                 <li>
                                                     <i className="fa-solid fa-star"></i>
@@ -477,7 +477,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=28" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                     </Link>
@@ -552,7 +552,7 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="courses">AI Applications</Link>
+                                                    <Link to="">AI Applications</Link>
                                                 </li>
                                                 <li>
                                                     <i className="fa-solid fa-star"></i>
@@ -585,7 +585,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=29" className="theme-btn yellow-btn">Enroll Now</Link>
+                                             <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                     </Link> 
@@ -660,7 +660,7 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="courses">AI Associate</Link>
+                                                    <Link to="">AI Associate</Link>
                                                 </li>
                                                 <li>
                                                     <i className="fa-solid fa-star"></i>
@@ -694,7 +694,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=30" className="theme-btn yellow-btn">Enroll Now</Link>
+                                              <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                     </Link> 
@@ -769,7 +769,7 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="courses">Cloud Computing</Link>
+                                                    <Link to="">Cloud Computing</Link>
                                                 </li>
                                                 <li>
                                                     <i className="fa-solid fa-star"></i>
@@ -802,7 +802,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=31" className="theme-btn yellow-btn">Enroll Now</Link>
+                                              <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                     </Link> 
@@ -876,7 +876,7 @@ const PopularCoursesHomeOne = () => {
                                         <div className="courses-content">
                                             <ul className="post-cat">
                                                 <li>
-                                                    <Link to="courses">Android Apps</Link>
+                                                    <Link to="">Android Apps</Link>
                                                 </li>
                                                 <li>
                                                     <i className="fa-solid fa-star"></i>
@@ -894,7 +894,7 @@ const PopularCoursesHomeOne = () => {
                                             {/* <h4>$85</h4> */} <br />
                                             <span>
                                             Android apps are mobile applications for Android devices. 
-                                            </span>
+                                            </span> <br />
                                             {/* <div className="client-items">
                                                 <div className="client-img bg-cover" style={{background: `url(assets/img/courses/client-1.png)`}}></div>
                                                 <p>Paul C. Deleon</p>
@@ -909,7 +909,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul> */}
-                                            <Link to="https://courses.lamzingtech.com/course/view.php?id=32" className="theme-btn yellow-btn">Enroll Now</Link>
+                                             <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                     </Link>
@@ -1127,7 +1127,7 @@ const PopularCoursesHomeOne = () => {
                                                     80 Students
                                                 </li>
                                             </ul>
-                                            <Link to="/courses-details" className="theme-btn yellow-btn">Enroll Now</Link>
+                                            <h3 className="theme-btn yellow-btn">View more... </h3>
                                         </div>
                                     </div>
                                 </div>

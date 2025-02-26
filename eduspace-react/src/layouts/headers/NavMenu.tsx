@@ -16,6 +16,7 @@ const NavMenu = () => {
               {item.img_dropdown || item.has_dropdown ? <i className="fa-solid fa-chevron-circle-down"></i> : null}
               
           </Link>
+       
           {item.img_dropdown && 
               <ul className="submenu has-homemenu">
                   <li>
@@ -67,6 +68,7 @@ const NavMenu = () => {
             ))} 
        </ul>}
       </li>
+      
         ))} 
       </ul>
     </>
