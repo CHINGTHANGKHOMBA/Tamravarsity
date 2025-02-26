@@ -28,7 +28,7 @@ const SignIn = () => {
       console.log("🚀 Sending Data:", userData);
     
       const response = await axios.post(
-        "http://localhost:8000/api/auth/google/",  // ✅ Ensure this is correct
+        "https://tamraversity-backend.lamzingtech.com/api/auth/google/",  // ✅ Ensure this is correct
         userData,
         {
           headers: { "Content-Type": "application/json" },

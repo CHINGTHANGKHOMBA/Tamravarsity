@@ -8,7 +8,7 @@ const CoursesArea = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/courses/")
+    fetch("https://tamraversity-backend.lamzingtech.com/api/courses/")
       .then((response) => {
         console.log("Response Status:", response.status); // Debugging response status
         return response.json(); // Convert response to JSON

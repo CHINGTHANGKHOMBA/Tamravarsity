@@ -36,7 +36,7 @@ const CoursesDetailsArea = () => {
   useEffect(() => {
     if (!id) return; // Prevent fetching if ID is null
 
-    fetch(`http://127.0.0.1:8000/api/courses/${id}/`)
+    fetch(`https://tamraversity-backend.lamzingtech.com/api/courses/${id}/`)
       .then((response) => response.json())
       .then((data: Course) => {
         console.log("Fetched Course Data:", data);
@@ -72,7 +72,7 @@ const CoursesDetailsArea = () => {
                         <div className="col-lg-8">
                             <div className="courses-details-items">
                                 <div className="courses-image">
-                                {course &&  <img src={"http://127.0.0.1:8000/"+course.course_img} alt={course.course_name} 
+                                {course &&  <img src={"https://tamraversity-backend.lamzingtech.com/"+course.course_img} alt={course.course_name} 
                                 onError={(e) => {e.currentTarget.src = "../../../public/assets/img/courses/Dummy.png"}}
                                 />}
                                     <a 
@@ -223,7 +223,7 @@ const CoursesDetailsArea = () => {
                             <div className="courses-sidebar-area sticky-style">
                                 <div className="courses-items">
                                     <div className="courses-image">
-                                    {course &&  <img src={"http://127.0.0.1:8000/"+course.course_img} alt={course.course_name} 
+                                    {course &&  <img src={"https://tamraversity-backend.lamzingtech.com"+course.course_img} alt={course.course_name} 
                                        onError={(e) => {e.currentTarget.src = "../../../public/assets/img/courses/Dummy.png"}}
                                     />}
                                         {/* <h3 className="courses-title">React JS</h3> */}
