@@ -80,13 +80,14 @@ const CoursesDetailsArea = () => {
                         }}
                       />
                     )}
-                    <a
+                    {/* <a
                       onClick={() => setIsVideoOpen(true)}
                       style={{ cursor: "pointer" }}
                       className="video-btn ripple video-popup"
                     >
-                      <i className="fas fa-play"></i>
-                    </a>
+                    <i className="fa-solid fa-play"></i>
+
+                    </a> */}
                   </div>
                   <div className="courses-details-content">
                     <ul className="nav">
