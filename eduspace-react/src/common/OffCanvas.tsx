@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import MobileMenu from "../layouts/headers/MobileMenu";
 import { useAuth } from "../components/sign-in/auth";
+import Tamravarsity from "../../public/assets/img/logo/tamravarsity.jpeg";
  
 
 const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
@@ -18,7 +19,7 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
                         <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div className="offcanvas__logo">
                                 <Link to="/"> 
-                                    <img src="../../public/assets/img/logo/tamravarsityfooter.png" alt="logo-img" style={{ width: '6vh' }}/>
+                                    <img src={Tamravarsity} alt="logo-img" style={{ width: '6vh' }}/>
                                     </Link>
                             </div>
                             <div className="offcanvas__close" onClick={() => setOpenCanvas(false)} 
