@@ -11,7 +11,7 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
         
   return (
     <>
-      <div className="fix-area">
+         <div className="fix-area">
             <div className={`offcanvas__info ${openCanvas ? "info-open" : ""}`}>
                 <div className="offcanvas__wrapper">
                     <div className="offcanvas__content">
@@ -19,13 +19,14 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
                             <div className="offcanvas__logo">
                                 <Link to="/">
                                     <img src="../../public/assets/img/logo/tamravarsityfooter.png" alt="logo-img" style={{ width: '6vh' }}/>
-                                </Link>
+                                    </Link>
                             </div>
                             <div className="offcanvas__close" onClick={() => setOpenCanvas(false)}>
-                                <button>
-                                <i className="fa-solid fa-times"></i>
-                                </button>
-                            </div>
+  <button>
+    <i className="fa-solid fa-xmark"></i>
+  </button>
+</div>
+
                         </div>
                         <h3 className="offcanvas-title">Welcome to Tamravarsity</h3>
                         <p>Tamravarsity courses empower learners with industry-relevant skills, blending expert

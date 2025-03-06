@@ -22,7 +22,7 @@ const BreadcrumbCoursesDetails = () => {
             <div className="page-heading">
                 <ul className="breadcrumb-items">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/courses-grid">Courses</Link></li>
+                    <li><Link to="/courses">Courses</Link></li>
                     <li className="style-2"> Course Details</li>
                 </ul>
                 {/* <div className="breadcrumb-content">
