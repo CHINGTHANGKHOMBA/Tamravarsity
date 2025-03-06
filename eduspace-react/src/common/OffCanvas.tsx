@@ -21,7 +21,7 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
                                     <img src="../../public/assets/img/logo/tamravarsityfooter.png" alt="logo-img" style={{ width: '6vh' }}/>
                                     </Link>
                             </div>
-                            <div className="offcanvas__close" onClick={() => setOpenCanvas(false)} style={{ position: "absolute", top: "3vh", right: "9vh", zIndex: 9 }}
+                            <div className="offcanvas__close" onClick={() => setOpenCanvas(false)} 
                             >
                                     <button>
                                         <i className="fa-solid fa-xmark"></i>
