@@ -1,5 +1,5 @@
 import NavMenu from "./NavMenu";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Search from "../../common/Search";
 import UseSticky from "../../hooks/UseSticky";
