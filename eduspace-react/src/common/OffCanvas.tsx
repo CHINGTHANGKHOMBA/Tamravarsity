@@ -11,21 +11,22 @@ const OffCanvas = ({setOpenCanvas, openCanvas} : any) => {
         
   return (
     <>
-         <div className="fix-area">
+ <div className="fix-area">
             <div className={`offcanvas__info ${openCanvas ? "info-open" : ""}`}>
                 <div className="offcanvas__wrapper">
                     <div className="offcanvas__content">
                         <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div className="offcanvas__logo">
-                                <Link to="/">
+                                <Link to="/"> 
                                     <img src="../../public/assets/img/logo/tamravarsityfooter.png" alt="logo-img" style={{ width: '6vh' }}/>
                                     </Link>
                             </div>
-                            <div className="offcanvas__close" onClick={() => setOpenCanvas(false)}>
-  <button>
-    <i className="fa-solid fa-xmark"></i>
-  </button>
-</div>
+                            <div className="offcanvas__close" onClick={() => setOpenCanvas(false)} style={{ position: "absolute", top: "3vh", right: "9vh", zIndex: 9 }}
+                            >
+                                    <button>
+                                        <i className="fa-solid fa-xmark"></i>
+                                    </button>
+                                    </div>
 
                         </div>
                         <h3 className="offcanvas-title">Welcome to Tamravarsity</h3>
