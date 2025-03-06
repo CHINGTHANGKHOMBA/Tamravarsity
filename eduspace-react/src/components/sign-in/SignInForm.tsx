@@ -67,19 +67,19 @@ const SignIn = () => {
         ) : (
           <button
             onClick={logout}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "8vh",
-              padding: "12px 24px",
-              color: "white",
-              backgroundColor: "#d9534f",
-              border: "none",
-              borderRadius: "8px",
-              boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.2)",
-              cursor: "pointer",
-              transition: "background 0.3s ease-in-out",
-            }}
+            // style={{
+            //   display: "flex",
+            //   alignItems: "center",
+            //   gap: "8vh",
+            //   padding: "12px 24px",
+            //   color: "white",
+            //   backgroundColor: "#d9534f",
+            //   border: "none",
+            //   borderRadius: "8px",
+            //   boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.2)",
+            //   cursor: "pointer",
+            //   transition: "background 0.3s ease-in-out",
+            // }}
             onMouseOver={(e) => ((e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c9302c")}
             onMouseOut={(e) => ((e.currentTarget as HTMLButtonElement).style.backgroundColor = "#d9534f")}
           >

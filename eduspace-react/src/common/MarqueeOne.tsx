@@ -15,7 +15,7 @@ const MarqueeOne = ({style_2} : any) => {
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Tamravarsity</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Online & offline Course</div>
                         {/* <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 18+ Quality Courses</div> */}
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 18+ Quality Courses</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 24+ Quality Courses</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Experience Instructors</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> New Technology</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> ST or SC extra offer</div>
@@ -25,7 +25,7 @@ const MarqueeOne = ({style_2} : any) => {
                         <div></div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Tamravarsity</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Online & offline Course</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 18+ Quality Courses</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 24+ Quality Courses</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Experience Instructors</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> New Technology</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> ST or SC extra offer</div>
@@ -35,7 +35,7 @@ const MarqueeOne = ({style_2} : any) => {
                         <div></div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Tamravarsity</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Online & offline Course</div>
-                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 18+ Quality Courses</div>
+                        <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> 24+ Quality Courses</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> Experience Instructors</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> New Technology</div>
                         <div className={`cmn-textslide ${style_2? "text-color-2" : ""}`}><i className="fa-solid fa-graduation-cap"></i> ST or SC extra offer</div>

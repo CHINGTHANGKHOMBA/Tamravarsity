@@ -30,7 +30,7 @@ const HeroHomeOne = () => {
                                 Engaging Students in
                                 the Digital Age
                             </h1>
-                            <h3 className="wow fadeInUp" data-wow-delay=".5s">Get  18+ Best Quality Online & offline Courses From Tamravarsity</h3>
+                            <h3 className="wow fadeInUp" data-wow-delay=".5s">Get  24+ Best Quality Online & offline Courses From Tamravarsity</h3>
                             {/* <div className="hero-button wow fadeInUp" data-wow-delay=".7s">
                                 <Link to="/courses-details" className="theme-btn hover-white">Find Your Best Courses</Link>
                             </div> */}
